@@ -8,10 +8,10 @@ export function CalcularPromedio(notas) {
     let promedio = suma / notas.length;
 
     if (promedio >= 4.5) {
-        return "Alto";
+        return `El promedio fue de: ${promedio}, la cual el desempeño es: Alto`;
     } else if (promedio >= 3.0) {
-        return "Medio";
+        return `El promedio fue de: ${promedio}, la cual el desempeño es: Medio`;
     } else {
-        return "Bajo";
+        return `El promedio fue de: ${promedio}, la cual el desempeño es: Bajo`;
     }
 }
